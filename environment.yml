@@ -1,0 +1,6 @@
+name: expert-track
+channels:
+- defaults
+dependencies:
+- python=3
+- pytest
