@@ -14,7 +14,7 @@
 settings. Thereto, go to 
 **File | Settings | Appearance & Behavior | System Settings | HTTP Proxy**
 (or **Configure | Settings | ...** in the Welcome  window).
-For the correct values, check out our Slack channel.
+For the correct values, check out the exercise email.
 
 1. Click on **VCS | Checkout from Version Control | Git** 
 (Welcome window: **Checkout from Version Control | Git**)
@@ -39,8 +39,8 @@ and start Anaconda Prompt
 1. In PyCharm, go to **File | Settings | Project: expert-track | Project Interpreter**
 
 1. Click **![cogwheel](https://www.jetbrains.com/help/img/idea/2017.1/cogwheel_framed.png) | Add local** 
-and navigate to the folder from step 10. In this folder, select python.exe and click "Ok".
-(*This can take a while!*)
+and navigate to the folder from step 10. In this folder, select ``python.exe`` and click "Ok".
+(*This might take a while!*)
 
 1. Go to  **File | Settings | Tools | Python Integrated Tools** and change the
 **Default test runner** to "py.test"
