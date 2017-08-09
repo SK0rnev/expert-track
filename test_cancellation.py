@@ -31,14 +31,14 @@ def test_detect_cancellations_empty():
 
 
 def test_detect_cancellations_bad_input():
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         detect_cancellations([(1, 2)])
 
-    with pytest.raises(ValueError):
-        detect_cancellations(['one', 'two'])
+    with pytest.raises(TypeError):
+        detect_cancellations([('one', 'two')])
 
-    with pytest.raises(ValueError):
-        detect_cancellations(['one', 3.14])
+    with pytest.raises(TypeError):
+        detect_cancellations([('one', 3.14)])
 
 
 def test_detect_cancellations_no_match():
